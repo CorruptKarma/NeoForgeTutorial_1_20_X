@@ -1,0 +1,7 @@
+// 1.21.1	2024-10-02T22:35:45.8145175	Block States: tutorialmod
+0e4a6a471a7d0e796aedc32135661963550076ed assets/tutorialmod/blockstates/void_crystal_block.json
+036fe08cc5e3515faa841b7b69fc7e295fe8c2d3 assets/tutorialmod/blockstates/void_geode.json
+75dcc5f1298655ba8688bff422cd3a6917b466ea assets/tutorialmod/models/block/void_crystal_block.json
+4befd0654eeb8eb21d5da66ae068f25891579e39 assets/tutorialmod/models/block/void_geode.json
+ded84903d2fb52ef5beb8e43d1e551a96d3db31e assets/tutorialmod/models/item/void_crystal_block.json
+ddeb7b467e40cee63b438e815e822bde7d6a75e0 assets/tutorialmod/models/item/void_geode.json
