@@ -1,7 +1,8 @@
-package net.karma.tutorialmod.item;
+package net.karma.tutorialmod;
 
 import net.karma.tutorialmod.TutorialMod;
 import net.karma.tutorialmod.block.ModBlock;
+import net.karma.tutorialmod.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;

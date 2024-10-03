@@ -1,14 +1,11 @@
 package net.karma.tutorialmod;
 
 import net.karma.tutorialmod.block.ModBlock;
-import net.karma.tutorialmod.item.ModCreativeModeTabs;
 import net.karma.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
 
-import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.world.level.block.Blocks;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
