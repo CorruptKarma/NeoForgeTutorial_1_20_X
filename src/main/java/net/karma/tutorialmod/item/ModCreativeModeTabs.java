@@ -1,4 +1,4 @@
-package net.karma.tutorialmod;
+package net.karma.tutorialmod.item;
 
 import net.karma.tutorialmod.TutorialMod;
 import net.karma.tutorialmod.block.ModBlock;

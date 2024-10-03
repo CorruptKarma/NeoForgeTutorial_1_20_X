@@ -1,6 +1,7 @@
 package net.karma.tutorialmod;
 
 import net.karma.tutorialmod.block.ModBlock;
+import net.karma.tutorialmod.item.ModCreativeModeTabs;
 import net.karma.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
 
