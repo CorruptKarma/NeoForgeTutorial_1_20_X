@@ -16,6 +16,9 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> BEDROCK_DUST = ITEMS.register("bedrock_dust",
             () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> ANIMATED_ITEM = ITEMS.register("animated_item",
+            () -> new Item(new Item.Properties()));
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

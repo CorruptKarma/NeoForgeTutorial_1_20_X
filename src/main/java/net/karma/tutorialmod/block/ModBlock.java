@@ -20,10 +20,10 @@ public class ModBlock {
 
 
     public static final DeferredBlock<Block> VOID_GEODE = registerBlock("void_geode",
-            () -> new Block(BlockBehaviour.Properties.of()
+            () -> new Block(BlockBehaviour.Properties.of().requiresCorrectToolForDrops()
                     .strength(4.0F, 28125.0F).isValidSpawn(Blocks::never).sound(SoundType.CALCITE)));
     public static final DeferredBlock<Block> VOID_CRYSTAL_BLOCK = registerBlock("void_crystal_block",
-            () -> new Block(BlockBehaviour.Properties.of()
+            () -> new Block(BlockBehaviour.Properties.of().requiresCorrectToolForDrops()
                     .strength(2.0F, 28125.0F).isValidSpawn(Blocks::never).sound(SoundType.AMETHYST)));
 
 

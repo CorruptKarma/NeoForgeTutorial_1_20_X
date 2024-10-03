@@ -1,3 +1,7 @@
-// 1.21.1	2024-10-02T23:45:06.9145642	Tags for minecraft:block mod id tutorialmod
+// 1.21.1	2024-10-03T17:43:45.5367643	Tags for minecraft:block mod id tutorialmod
+a084c3f4e20dccc7f370afe71e365ee3386b3be8 data/minecraft/tags/block/incorrect_for_diamond_tool.json
+a084c3f4e20dccc7f370afe71e365ee3386b3be8 data/minecraft/tags/block/incorrect_for_gold_tool.json
+a084c3f4e20dccc7f370afe71e365ee3386b3be8 data/minecraft/tags/block/incorrect_for_iron_tool.json
+a084c3f4e20dccc7f370afe71e365ee3386b3be8 data/minecraft/tags/block/incorrect_for_stone_tool.json
+a084c3f4e20dccc7f370afe71e365ee3386b3be8 data/minecraft/tags/block/incorrect_for_wooden_tool.json
 bb50cdffc6f676be1005b4c41cca69b33b9bbd44 data/minecraft/tags/block/mineable/pickaxe.json
-a084c3f4e20dccc7f370afe71e365ee3386b3be8 data/minecraft/tags/block/needs_diamond_tool.json

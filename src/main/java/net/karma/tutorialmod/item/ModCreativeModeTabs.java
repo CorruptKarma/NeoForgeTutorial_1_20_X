@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.VOID_CRYSTAL);
                         output.accept(ModItems.VOID_AMETHYST);
                         output.accept(ModItems.BEDROCK_DUST);
+                        output.accept(ModItems.ANIMATED_ITEM);
                     }).build());
     public static final Supplier<CreativeModeTab> VOID_BLOCKS_TAB = CREATIVE_MODE_TAB.register("void_blocks_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlock.VOID_GEODE.get()))

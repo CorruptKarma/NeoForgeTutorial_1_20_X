@@ -1,0 +1,47 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.model.test": {
+			"animation_length": 4,
+			"bones": {
+				"CRYSTAL": {
+					"rotation": {
+						"vector": [0, 0, 0],
+						"easing": "linear"
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"0.5": {
+							"vector": [0, 3, 0],
+							"easing": "easeInCubic"
+						},
+						"1.0": {
+							"vector": [0, 0.975, 0],
+							"easing": "easeInOutCubic"
+						},
+						"2.0": {
+							"vector": [0, 4.97, 0],
+							"easing": "easeInQuart"
+						},
+						"3.0": {
+							"vector": [0, 2.97, 0],
+							"easing": "easeInQuart"
+						},
+						"4.0": {
+							"vector": [0, -0.03, 0],
+							"easing": "linear"
+						}
+					},
+					"scale": {
+						"vector": [1, 1, 1],
+						"easing": "linear"
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}
