@@ -8,7 +8,7 @@ import software.bernie.geckolib.model.GeoModel;
 
 public class AnimatedItemModel extends GeoModel<AnimatedItem> {
     private final ResourceLocation model = ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, "geo/crystal_scythe.geo.json");
-    private final ResourceLocation texture = ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, "item/crystal.png");
+    private final ResourceLocation texture = ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, "textures/item/crystal.png");
     private final ResourceLocation animations = ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, "animations/model.animation.json");
 
     @Override
