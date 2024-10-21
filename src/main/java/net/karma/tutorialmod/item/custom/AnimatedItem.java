@@ -19,7 +19,7 @@ public class AnimatedItem extends Item implements GeoItem {
         super(properties);
     }
     private PlayState predicate(AnimationState animationState) {
-        animationState.getController().setAnimation(RawAnimation.begin().then("test", Animation.LoopType.PLAY_ONCE));
+        animationState.getController().setAnimation(RawAnimation.begin().then("test.animation", Animation.LoopType.LOOP));
         return PlayState.CONTINUE;
     }
 

@@ -7,9 +7,9 @@ import software.bernie.geckolib.animatable.GeoAnimatable;
 import software.bernie.geckolib.model.GeoModel;
 
 public class AnimatedItemModel extends GeoModel<AnimatedItem> {
-    private final ResourceLocation model = ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, "geo/crystal_scythe.geo.json");
-    private final ResourceLocation texture = ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, "textures/item/crystal.png");
-    private final ResourceLocation animations = ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, "animations/model.animation.json");
+    private final ResourceLocation model = ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, "geo/test.geo.json");
+    private final ResourceLocation texture = ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, "textures/item/magic_texture.png");
+    private final ResourceLocation animations = ResourceLocation.fromNamespaceAndPath(TutorialMod.MOD_ID, "animations/test.animation.json");
 
     @Override
     public ResourceLocation getModelResource(AnimatedItem animatable) { return this.model; }

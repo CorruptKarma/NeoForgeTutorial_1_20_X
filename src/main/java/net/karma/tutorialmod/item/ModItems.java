@@ -1,6 +1,7 @@
 package net.karma.tutorialmod.item;
 
 import net.karma.tutorialmod.TutorialMod;
+import net.karma.tutorialmod.item.custom.AnimatedItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -17,8 +18,8 @@ public class ModItems {
     public static final DeferredItem<Item> BEDROCK_DUST = ITEMS.register("bedrock_dust",
             () -> new Item(new Item.Properties()));
 
-    public static final DeferredItem<Item> ANIMATED_ITEM = ITEMS.register("animated_item",
-            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ANIMATED_ITEM = ITEMS.register("test",
+            () -> new AnimatedItem(new Item.Properties()));
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

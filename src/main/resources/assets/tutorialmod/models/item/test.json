@@ -5,66 +5,64 @@
     "thirdperson_righthand": {
       "translation": [
         0,
-        2,
-        0
+        0,
+        0.5
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
       ]
     },
     "thirdperson_lefthand": {
       "translation": [
         0,
-        2,
-        0
+        0,
+        0.75
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
       ]
     },
     "firstperson_righthand": {
       "translation": [
-        0,
-        4.5,
-        -1.5
+        -0.5,
+        2.25,
+        0.5
       ]
     },
     "firstperson_lefthand": {
       "translation": [
-        0,
-        5.25,
-        -1.5
-      ]
-    },
-    "ground": {
-      "translation": [
-        0,
-        4.25,
-        0
+        -0.5,
+        2.25,
+        0.5
       ]
     },
     "gui": {
-      "translation": [
+      "rotation": [
+        90,
         0,
-        4,
         0
       ]
     },
     "head": {
       "translation": [
         0,
-        16.5,
+        8.75,
         0
       ]
     },
     "fixed": {
-      "translation": [
+      "rotation": [
+        -90,
         0,
-        8.5,
         0
-      ],
-      "scale": [
-        2,
-        2,
-        2
       ]
     }
   },
   "textures": {
-    "particle": "crystal"
+    "particle": "item/magic_texture"
   }
 }
