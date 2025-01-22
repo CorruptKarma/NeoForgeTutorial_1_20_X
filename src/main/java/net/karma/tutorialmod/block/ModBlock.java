@@ -1,6 +1,8 @@
 package net.karma.tutorialmod.block;
 
 import net.karma.tutorialmod.TutorialMod;
+import net.karma.tutorialmod.block.custom.BreakBedrock;
+import net.karma.tutorialmod.block.custom.VoidGeodeBlock;
 import net.karma.tutorialmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -8,6 +10,8 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -20,11 +24,12 @@ public class ModBlock {
 
 
     public static final DeferredBlock<Block> VOID_GEODE = registerBlock("void_geode",
-            () -> new Block(BlockBehaviour.Properties.of().requiresCorrectToolForDrops()
-                    .strength(4.0F, 28125.0F).isValidSpawn(Blocks::never).sound(SoundType.CALCITE)));
+            () -> new VoidGeodeBlock(BlockBehaviour.Properties.of().requiresCorrectToolForDrops()
+                    .strength(10.0F, 28125.0F).isValidSpawn(Blocks::never).sound(SoundType.CALCITE)));
     public static final DeferredBlock<Block> VOID_CRYSTAL_BLOCK = registerBlock("void_crystal_block",
             () -> new Block(BlockBehaviour.Properties.of().requiresCorrectToolForDrops()
                     .strength(2.0F, 28125.0F).isValidSpawn(Blocks::never).sound(SoundType.AMETHYST)));
+
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

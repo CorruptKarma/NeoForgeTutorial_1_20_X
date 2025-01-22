@@ -24,12 +24,15 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
                 .add(ModBlock.VOID_GEODE.get());
         tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
-                .add(ModBlock.VOID_GEODE.get());
+                .add(ModBlock.VOID_GEODE.get())
+                .add(ModBlock.VOID_CRYSTAL_BLOCK.get());
         tag(BlockTags.INCORRECT_FOR_IRON_TOOL)
                 .add(ModBlock.VOID_GEODE.get());
         tag(BlockTags.INCORRECT_FOR_STONE_TOOL)
-                .add(ModBlock.VOID_GEODE.get());
+                .add(ModBlock.VOID_GEODE.get())
+                .add(ModBlock.VOID_CRYSTAL_BLOCK.get());
         tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
-                .add(ModBlock.VOID_GEODE.get());
+                .add(ModBlock.VOID_GEODE.get())
+                .add(ModBlock.VOID_CRYSTAL_BLOCK.get());
     }
 }

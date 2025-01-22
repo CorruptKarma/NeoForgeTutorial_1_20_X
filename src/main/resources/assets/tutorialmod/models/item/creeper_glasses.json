@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "tutorialmod:item/creeper_glasses_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "tutorialmod:item/creeper_glasses_2d"
+    }
+  }
+}

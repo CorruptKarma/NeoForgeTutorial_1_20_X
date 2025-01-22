@@ -12,6 +12,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.storage.loot.LootPool;
 import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
@@ -34,6 +35,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
         add(ModBlock.VOID_GEODE.get(),
                 block -> createMultipleOreDrops(ModBlock.VOID_GEODE.get(), ModItems.VOID_CRYSTAL.get(), 1, 2));
+
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

@@ -3,6 +3,7 @@ package net.karma.tutorialmod;
 import net.karma.tutorialmod.block.ModBlock;
 import net.karma.tutorialmod.item.ModCreativeModeTabs;
 import net.karma.tutorialmod.item.ModItems;
+import net.neoforged.neoforge.client.event.RenderLivingEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -59,5 +60,8 @@ public class TutorialMod {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
         }
+
+
+
     }
 }
